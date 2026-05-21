@@ -1,0 +1,24 @@
+{
+  "lastUpdated": "2026-05-21T12:00:00",
+  "bots": [
+    { "id": "cosmo",   "name": "Cosmo",          "status": "update",  "note": "Needs restart on Local" },
+    { "id": "atc",     "name": "ATC",             "status": "update",  "note": "LAANC selectors unverified" },
+    { "id": "eddie",   "name": "Eddie",           "status": "online",  "note": "Shore Hotel training" },
+    { "id": "cfo",     "name": "CFO",             "status": "update",  "note": "Waterfall locked, pending review" },
+    { "id": "housing", "name": "Housing Scraper", "status": "online",  "note": "Running on Local" },
+    { "id": "scrubber","name": "Biz Scrubber",    "status": "offline", "note": "Built, not scheduled" },
+    { "id": "cco",     "name": "CCO",             "status": "offline", "note": "Spec ready, not built" },
+    { "id": "cmo",     "name": "CMO",             "status": "offline", "note": "Planned, not started" },
+    { "id": "cousin",  "name": "Receipt Bot",     "status": "offline", "note": "Stalled — need cousin's OS" }
+  ],
+  "tasks": [
+    { "id": "t1", "title": "Create QB Cost of Labor sub-accounts",  "priority": 1, "blockedBy": [] },
+    { "id": "t2", "title": "Lili invoice",                          "priority": 2, "blockedBy": ["t1"] },
+    { "id": "t3", "title": "Restart Cosmo on Local",                "priority": 3, "blockedBy": [] },
+    { "id": "t4", "title": "Wire Cosmo → CFO dispatch hook",        "priority": 4, "blockedBy": ["t3"] },
+    { "id": "t5", "title": "QBO OAuth: decide Path A or B",         "priority": 5, "blockedBy": [] },
+    { "id": "t6", "title": "Aerial Tour split — confirm with Ty",   "priority": 6, "blockedBy": [] },
+    { "id": "t7", "title": "Signature video — name, price, split",  "priority": 7, "blockedBy": [] },
+    { "id": "t8", "title": "Welcome deck PDF export",               "priority": 8, "blockedBy": [] }
+  ]
+}
