@@ -1,59 +1,77 @@
 {
-  "lastUpdated": "2026-05-21T18:45:03",
+  "lastUpdated": "2026-05-21T21:15:25",
   "bots": [
     {
       "id": "cosmo",
       "name": "Cosmo",
+      "role": "Chief of Staff",
       "status": "update",
-      "note": "Needs restart on Local"
-    },
-    {
-      "id": "atc",
-      "name": "ATC",
-      "status": "update",
-      "note": "LAANC selectors unverified"
-    },
-    {
-      "id": "eddie",
-      "name": "Eddie",
-      "status": "online",
-      "note": "Shore Hotel training"
+      "note": "Needs restart on Local",
+      "parent": null,
+      "group": "staff"
     },
     {
       "id": "cfo",
       "name": "CFO",
+      "role": "Finance",
       "status": "update",
-      "note": "Waterfall locked, pending review"
-    },
-    {
-      "id": "housing",
-      "name": "Housing Scraper",
-      "status": "online",
-      "note": "Running on Local"
-    },
-    {
-      "id": "scrubber",
-      "name": "Biz Scrubber",
-      "status": "offline",
-      "note": "Built, not scheduled"
+      "note": "Waterfall locked, pending review",
+      "parent": "cosmo",
+      "group": "staff"
     },
     {
       "id": "cco",
       "name": "CCO",
+      "role": "Client Ops",
       "status": "offline",
-      "note": "Spec ready, not built"
+      "note": "Spec ready, not built",
+      "parent": "cosmo",
+      "group": "staff"
     },
     {
       "id": "cmo",
       "name": "CMO",
+      "role": "Marketing",
       "status": "offline",
-      "note": "Planned, not started"
+      "note": "Planned, not started",
+      "parent": "cosmo",
+      "group": "staff"
+    },
+    {
+      "id": "atc",
+      "name": "ATC",
+      "role": "Airspace",
+      "status": "update",
+      "note": "LAANC selectors unverified",
+      "parent": null,
+      "group": "tools"
+    },
+    {
+      "id": "housing",
+      "name": "Housing",
+      "role": "Lead Intel",
+      "status": "online",
+      "note": "Running on Local",
+      "parent": null,
+      "group": "tools"
+    },
+    {
+      "id": "scrubber",
+      "name": "Biz Scrub",
+      "role": "Lead Intel",
+      "status": "offline",
+      "note": "Built, not scheduled",
+      "parent": null,
+      "group": "tools"
     },
     {
       "id": "cousin",
       "name": "Receipt Bot",
+      "role": "Bookkeeping",
       "status": "offline",
-      "note": "Stalled \u2014 need cousin's OS"
+      "note": "Stalled \u2014 need cousin's OS",
+      "parent": null,
+      "group": "tools"
     }
   ],
   "tasks": [
