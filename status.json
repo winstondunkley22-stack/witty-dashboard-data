@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T00:50:44",
+  "lastUpdated": "2026-05-22T14:30:43",
   "bots": [
     {
       "id": "cosmo",
@@ -74,66 +74,152 @@
       "group": "tools"
     }
   ],
-  "tasks": [
+  "brainQuestions": [
+    {
+      "id": "bq1",
+      "q": "QBO OAuth \u2014 did you pick Path A or B? What was the deciding factor?"
+    },
+    {
+      "id": "bq2",
+      "q": "AI Tools Business (Dan meeting 2026-05-22): what are the first 2 module candidates for RE workflow?"
+    },
+    {
+      "id": "bq3",
+      "q": "Aerial Tour split \u2014 confirmed 50/50 or something different?"
+    },
+    {
+      "id": "bq4",
+      "q": "Signature video \u2014 name, price, and split decided yet?"
+    },
+    {
+      "id": "bq5",
+      "q": "Cosmo restart: did the CFO rules and cache fix take effect?"
+    }
+  ],
+  "items": [
     {
       "id": "t1",
+      "type": "task",
       "title": "Create QB Cost of Labor sub-accounts",
       "priority": 1,
       "blockedBy": [],
-      "note": "In QuickBooks: COGS > Cost of Labor. Manually add two sub-accounts: 'Cost of Labor - Dunkley' and 'Cost of Labor - Frost'. This is required before any shoot costs can be categorized by person \u2014 which blocks the Lili invoice and CFO accuracy."
+      "note": "In QuickBooks: COGS > Cost of Labor. Manually add two sub-accounts: 'Cost of Labor - Dunkley' and 'Cost of Labor - Frost'. Required before any shoot costs can be categorized by person \u2014 which blocks the Lili invoice."
     },
     {
       "id": "t2",
+      "type": "task",
       "title": "Lili invoice",
       "priority": 2,
       "blockedBy": [
         "t1"
       ],
-      "note": "Invoice for Lili Geller job. Can't be finalized until the QB sub-accounts (t1) exist so COGS can be properly split. Also still need from you: the line items for the shoot and what Aidn was paid."
+      "note": "Invoice for Lili Geller. Blocked until QB sub-accounts (t1) exist. Still need from you: line items for the shoot and what Aidn was paid."
     },
     {
       "id": "t3",
+      "type": "task",
       "title": "Restart Cosmo on Local",
       "priority": 3,
       "blockedBy": [],
-      "note": "Cosmo (the AI chief of staff bot) runs on Local (192.168.1.73). A cache fix and CFO rule updates are staged but won't take effect until it's restarted. Command: pkill -f cosmo.py && nohup python3 ~/Cosmo/cosmo.py >> ~/Cosmo/cosmo.log 2>&1 &"
+      "note": "SSH into Local (192.168.1.73) and restart the Cosmo process. CFO rules and cache fixes are staged but not live until restarted. Run: pkill -f cosmo.py && nohup python3 ~/Cosmo/cosmo.py >> ~/Cosmo/cosmo.log 2>&1 &"
     },
     {
       "id": "t4",
+      "type": "task",
       "title": "Wire Cosmo \u2192 CFO dispatch hook",
       "priority": 4,
       "blockedBy": [
         "t3"
       ],
-      "note": "Adds a hook so Cosmo can trigger the CFO agent on command (e.g. 'run CFO report'). Blocked until Cosmo is restarted and confirmed working. Small wiring job once t3 is done."
+      "note": "Adds a hook so Cosmo can trigger the CFO agent on command. Small wiring job \u2014 blocked until Cosmo is restarted and confirmed working."
     },
     {
       "id": "t5",
+      "type": "task",
       "title": "QBO OAuth: decide Path A or B",
       "priority": 5,
       "blockedBy": [],
-      "note": "Path A: Submit the Intuit developer review form for production API access \u2014 takes days to approve but gives live QB data in Claude. Path B: CSV export workflow \u2014 works today but requires manual steps. This decision is holding up CFO automation. Pick one."
+      "note": "Path A: Submit Intuit review form for production API access \u2014 takes days but gives live QB data. Path B: CSV export workflow \u2014 works today, manual steps. This decision is holding up CFO automation. Pick one."
     },
     {
       "id": "t6",
+      "type": "task",
       "title": "Aerial Tour split \u2014 confirm with Ty",
       "priority": 6,
       "blockedBy": [],
-      "note": "The revenue split for Aerial Tour jobs with Ty hasn't been locked in. Currently assumed 50/50 but not confirmed. Affects how the CFO waterfall calculates payouts \u2014 needs to be settled before it can run correctly."
+      "note": "Revenue split for Aerial Tour jobs with Ty. Currently assumed 50/50 but not confirmed. Affects CFO waterfall calculations."
     },
     {
       "id": "t7",
+      "type": "task",
       "title": "Signature video \u2014 name, price, split",
       "priority": 7,
       "blockedBy": [],
-      "note": "The 'signature video' is a planned premium product that doesn't have a name, price, or partner split defined yet. CMO can't market it and CFO can't track it until those three things are locked."
+      "note": "Premium product that needs a name, price point, and partner split defined. CMO can't market it and CFO can't track it until these are locked."
     },
     {
       "id": "t8",
+      "type": "task",
       "title": "Welcome deck PDF export",
       "priority": 8,
       "blockedBy": [],
-      "note": "Export the v15 Welcome deck PPTX from PowerPoint as a PDF, then run the spread script: python3 ~/Desktop/Claude\\ Outputs/Design/set_pdf_spread.py <your-exported-file.pdf>"
+      "note": "Export v15 Welcome deck PPTX from PowerPoint as PDF, then run: python3 ~/Desktop/Claude\\ Outputs/Design/set_pdf_spread.py <file.pdf>"
+    },
+    {
+      "id": "b1",
+      "type": "build",
+      "title": "WRM Website",
+      "priority": 1,
+      "blockedBy": [],
+      "note": "~/Projects/witty-realty-media/ \u2014 contact form + Vercel deploy is the remaining blocker before this ships."
+    },
+    {
+      "id": "b2",
+      "type": "build",
+      "title": "Forklore",
+      "priority": 2,
+      "blockedBy": [],
+      "note": "Restaurant tracker at ~/Projects/forklore/. Auth screen done. Next: test sign-up flow end-to-end."
+    },
+    {
+      "id": "b3",
+      "type": "build",
+      "title": "CFO Agent",
+      "priority": 3,
+      "blockedBy": [],
+      "note": "~/Projects/witty-cfo/ \u2014 biweekly cron running, math locked. Next: OpEx section + Cosmo dispatch hook."
+    },
+    {
+      "id": "b4",
+      "type": "build",
+      "title": "Housing Scraper",
+      "priority": 4,
+      "blockedBy": [],
+      "note": "Running on Local. Craigslist only, Cosmo-integrated. No active work needed."
+    },
+    {
+      "id": "b5",
+      "type": "build",
+      "title": "Biz Scrubber",
+      "priority": 5,
+      "blockedBy": [],
+      "note": "Built, not scheduled. Yelp + Maps leads, 5/day at 5pm. Needs a schedule decision."
+    },
+    {
+      "id": "p1",
+      "type": "project",
+      "title": "AI Tools Business",
+      "priority": 1,
+      "blockedBy": [],
+      "note": "Winston + Dan (YC alum). Closing the AI implementation gap for solos/SMBs. Survey locked. Dan meeting 2026-05-22. Real estate is the lead vertical \u2014 goal is to map Dan's RE workflow and find first module candidates."
+    },
+    {
+      "id": "p2",
+      "type": "project",
+      "title": "Pilot Documentary",
+      "priority": 2,
+      "blockedBy": [],
+      "note": "Early stage. Add details here."
     }
   ]
 }
