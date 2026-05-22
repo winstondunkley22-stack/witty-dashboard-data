@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T15:00:47",
+  "lastUpdated": "2026-05-22T15:30:50",
   "bots": [
     {
       "id": "cosmo",
@@ -77,23 +77,50 @@
   "brainQuestions": [
     {
       "id": "bq1",
-      "q": "QBO OAuth \u2014 did you pick Path A or B? What was the deciding factor?"
+      "q": "QBO OAuth \u2014 which path did you pick?",
+      "options": [
+        "Path A \u2014 submitted Intuit review form",
+        "Path B \u2014 CSV for now, works today",
+        "Still undecided"
+      ]
     },
     {
       "id": "bq2",
-      "q": "AI Tools Business (Dan meeting 2026-05-22): what are the first 2 module candidates for RE workflow?"
+      "q": "Dan meeting \u2014 how'd it go?",
+      "options": [
+        "Good signal \u2014 clear workflow gaps found",
+        "MLS alerts is Module 1 candidate",
+        "Lead follow-up is Module 1 candidate",
+        "Pitch needs refining before next step"
+      ]
     },
     {
       "id": "bq3",
-      "q": "Aerial Tour split \u2014 confirmed 50/50 or something different?"
+      "q": "Aerial Tour split \u2014 did you confirm with Ty?",
+      "options": [
+        "50/50 confirmed",
+        "Different split \u2014 see notes",
+        "Not confirmed yet"
+      ]
     },
     {
       "id": "bq4",
-      "q": "Signature video \u2014 name, price, and split decided yet?"
+      "q": "Signature Video \u2014 what got locked today?",
+      "options": [
+        "Name locked \u2014 see notes",
+        "Price locked \u2014 see notes",
+        "Split locked \u2014 see notes",
+        "Nothing decided yet"
+      ]
     },
     {
       "id": "bq5",
-      "q": "Cosmo restart: did the CFO rules and cache fix take effect?"
+      "q": "Cosmo restart \u2014 did it take?",
+      "options": [
+        "Yes \u2014 CFO rules live, cache fix confirmed",
+        "Restarted but still verifying",
+        "Not done yet"
+      ]
     }
   ],
   "items": [
