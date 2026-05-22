@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T16:00:52",
+  "lastUpdated": "2026-05-22T16:30:54",
   "bots": [
     {
       "id": "cosmo",
@@ -74,6 +74,7 @@
       "group": "tools"
     }
   ],
+  "agentInbox": [],
   "brainQuestions": [
     {
       "id": "bq1",
