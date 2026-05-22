@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T23:15:36",
+  "lastUpdated": "2026-05-21T23:45:38",
   "bots": [
     {
       "id": "cosmo",
@@ -79,7 +79,8 @@
       "id": "t1",
       "title": "Create QB Cost of Labor sub-accounts",
       "priority": 1,
-      "blockedBy": []
+      "blockedBy": [],
+      "note": "In QuickBooks: COGS > Cost of Labor. Manually add two sub-accounts: 'Cost of Labor - Dunkley' and 'Cost of Labor - Frost'. This is required before any shoot costs can be categorized by person \u2014 which blocks the Lili invoice and CFO accuracy."
     },
     {
       "id": "t2",
@@ -87,13 +88,15 @@
       "priority": 2,
       "blockedBy": [
         "t1"
-      ]
+      ],
+      "note": "Invoice for Lili Geller job. Can't be finalized until the QB sub-accounts (t1) exist so COGS can be properly split. Also still need from you: the line items for the shoot and what Aidn was paid."
     },
     {
       "id": "t3",
       "title": "Restart Cosmo on Local",
       "priority": 3,
-      "blockedBy": []
+      "blockedBy": [],
+      "note": "Cosmo (the AI chief of staff bot) runs on Local (192.168.1.73). A cache fix and CFO rule updates are staged but won't take effect until it's restarted. Command: pkill -f cosmo.py && nohup python3 ~/Cosmo/cosmo.py >> ~/Cosmo/cosmo.log 2>&1 &"
     },
     {
       "id": "t4",
@@ -101,31 +104,36 @@
       "priority": 4,
       "blockedBy": [
         "t3"
-      ]
+      ],
+      "note": "Adds a hook so Cosmo can trigger the CFO agent on command (e.g. 'run CFO report'). Blocked until Cosmo is restarted and confirmed working. Small wiring job once t3 is done."
     },
     {
       "id": "t5",
       "title": "QBO OAuth: decide Path A or B",
       "priority": 5,
-      "blockedBy": []
+      "blockedBy": [],
+      "note": "Path A: Submit the Intuit developer review form for production API access \u2014 takes days to approve but gives live QB data in Claude. Path B: CSV export workflow \u2014 works today but requires manual steps. This decision is holding up CFO automation. Pick one."
     },
     {
       "id": "t6",
       "title": "Aerial Tour split \u2014 confirm with Ty",
       "priority": 6,
-      "blockedBy": []
+      "blockedBy": [],
+      "note": "The revenue split for Aerial Tour jobs with Ty hasn't been locked in. Currently assumed 50/50 but not confirmed. Affects how the CFO waterfall calculates payouts \u2014 needs to be settled before it can run correctly."
     },
     {
       "id": "t7",
       "title": "Signature video \u2014 name, price, split",
       "priority": 7,
-      "blockedBy": []
+      "blockedBy": [],
+      "note": "The 'signature video' is a planned premium product that doesn't have a name, price, or partner split defined yet. CMO can't market it and CFO can't track it until those three things are locked."
     },
     {
       "id": "t8",
       "title": "Welcome deck PDF export",
       "priority": 8,
-      "blockedBy": []
+      "blockedBy": [],
+      "note": "Export the v15 Welcome deck PPTX from PowerPoint as a PDF, then run the spread script: python3 ~/Desktop/Claude\\ Outputs/Design/set_pdf_spread.py <your-exported-file.pdf>"
     }
   ]
 }
