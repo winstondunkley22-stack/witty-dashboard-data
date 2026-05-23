@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T03:02:20",
+  "lastUpdated": "2026-05-23T03:32:22",
   "bots": [
     {
       "id": "cosmo",
@@ -7,6 +7,7 @@
       "role": "Chief of Staff",
       "status": "update",
       "note": "Needs restart on Local",
+      "currentTask": null,
       "parent": null,
       "group": "staff"
     },
@@ -16,6 +17,7 @@
       "role": "Finance",
       "status": "update",
       "note": "Waterfall locked, pending review",
+      "currentTask": "Waterfall pending review",
       "parent": "cosmo",
       "group": "staff"
     },
@@ -25,6 +27,7 @@
       "role": "Client Ops",
       "status": "offline",
       "note": "Spec ready, not built",
+      "currentTask": null,
       "parent": "cosmo",
       "group": "staff"
     },
@@ -34,6 +37,7 @@
       "role": "Marketing",
       "status": "offline",
       "note": "Planned, not started",
+      "currentTask": null,
       "parent": "cosmo",
       "group": "staff"
     },
@@ -43,6 +47,7 @@
       "role": "Airspace",
       "status": "update",
       "note": "LAANC selectors unverified",
+      "currentTask": "LAANC selector check",
       "parent": null,
       "group": "tools"
     },
@@ -52,6 +57,7 @@
       "role": "Lead Intel",
       "status": "online",
       "note": "Running on Local",
+      "currentTask": "Scraping Craigslist",
       "parent": null,
       "group": "tools"
     },
@@ -61,6 +67,7 @@
       "role": "Lead Intel",
       "status": "offline",
       "note": "Built, not scheduled",
+      "currentTask": null,
       "parent": null,
       "group": "tools"
     },
@@ -70,6 +77,7 @@
       "role": "Bookkeeping",
       "status": "offline",
       "note": "Stalled \u2014 need cousin's OS",
+      "currentTask": null,
       "parent": null,
       "group": "tools"
     }
@@ -199,6 +207,7 @@
       "title": "WRM Website",
       "priority": 1,
       "blockedBy": [],
+      "progress": 75,
       "note": "~/Projects/witty-realty-media/ \u2014 contact form + Vercel deploy is the remaining blocker before this ships."
     },
     {
@@ -207,6 +216,7 @@
       "title": "Forklore",
       "priority": 2,
       "blockedBy": [],
+      "progress": 40,
       "note": "Restaurant tracker at ~/Projects/forklore/. Auth screen done. Next: test sign-up flow end-to-end."
     },
     {
@@ -215,6 +225,7 @@
       "title": "CFO Agent",
       "priority": 3,
       "blockedBy": [],
+      "progress": 65,
       "note": "~/Projects/witty-cfo/ \u2014 biweekly cron running, math locked. Next: OpEx section + Cosmo dispatch hook."
     },
     {
@@ -223,6 +234,7 @@
       "title": "Housing Scraper",
       "priority": 4,
       "blockedBy": [],
+      "progress": 90,
       "note": "Running on Local. Craigslist only, Cosmo-integrated. No active work needed."
     },
     {
@@ -231,7 +243,26 @@
       "title": "Biz Scrubber",
       "priority": 5,
       "blockedBy": [],
+      "progress": 80,
       "note": "Built, not scheduled. Yelp + Maps leads, 5/day at 5pm. Needs a schedule decision."
+    },
+    {
+      "id": "b6",
+      "type": "build",
+      "title": "Dashboard Runner",
+      "priority": 6,
+      "blockedBy": [],
+      "progress": 55,
+      "note": "~/Projects/witty-dashboard/ \u2014 Tab restructure, Ticker, and progress bars in progress."
+    },
+    {
+      "id": "b7",
+      "type": "build",
+      "title": "LA Permit Intel",
+      "priority": 7,
+      "blockedBy": [],
+      "progress": 70,
+      "note": "Live at la-permit-intel.vercel.app. Mobile layout, filters, trend chart done. Blocker: Socrata token not set in Vercel env."
     },
     {
       "id": "p1",
@@ -239,6 +270,7 @@
       "title": "AI Tools Business",
       "priority": 1,
       "blockedBy": [],
+      "progress": 20,
       "note": "Winston + Dan (YC alum). Closing the AI implementation gap for solos/SMBs. Survey locked. Dan meeting 2026-05-22. Real estate is the lead vertical \u2014 goal is to map Dan's RE workflow and find first module candidates."
     },
     {
@@ -247,6 +279,7 @@
       "title": "Pilot Documentary",
       "priority": 2,
       "blockedBy": [],
+      "progress": 5,
       "note": "Early stage. Add details here."
     }
   ]
