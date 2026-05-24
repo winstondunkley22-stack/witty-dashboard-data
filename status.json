@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T20:03:52",
+  "lastUpdated": "2026-05-24T03:13:25",
   "bots": [
     {
       "id": "cosmo",
@@ -25,10 +25,6 @@
         "lastPeriod": "May 1\u201315",
         "lastRunSummary": "Revenue $2,390.62 \u00b7 WD $1,297.95 / TY $1,092.67 \u00b7 Distributable $906.03 \u00b7 A/R $3,671",
         "needsDecision": [
-          {
-            "text": "QBO OAuth \u2014 Path A (Intuit review, days to approve) or Path B (CSV-based, works today)? Blocking CFO automation.",
-            "urgency": "high"
-          },
           {
             "text": "Aerial Tour split \u2014 50/50 with Ty or different? Affects waterfall calculations.",
             "urgency": "high"
