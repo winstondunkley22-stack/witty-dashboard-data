@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T01:09:31",
+  "lastUpdated": "2026-05-24T08:11:30",
   "bots": [
     {
       "id": "cosmo",
@@ -115,15 +115,6 @@
   "agentInbox": [],
   "brainQuestions": [
     {
-      "id": "bq1",
-      "q": "QBO OAuth \u2014 which path did you pick?",
-      "options": [
-        "Path A \u2014 submitted Intuit review form",
-        "Path B \u2014 CSV for now, works today",
-        "Still undecided"
-      ]
-    },
-    {
       "id": "bq2",
       "q": "Dan meeting \u2014 how'd it go?",
       "options": [
@@ -198,14 +189,6 @@
         "t3"
       ],
       "note": "Adds a hook so Cosmo can trigger the CFO agent on command. Small wiring job \u2014 blocked until Cosmo is restarted and confirmed working."
-    },
-    {
-      "id": "t5",
-      "type": "task",
-      "title": "QBO OAuth: decide Path A or B",
-      "priority": 5,
-      "blockedBy": [],
-      "note": "Path A: Submit Intuit review form for production API access \u2014 takes days but gives live QB data. Path B: CSV export workflow \u2014 works today, manual steps. This decision is holding up CFO automation. Pick one."
     },
     {
       "id": "t6",
@@ -311,6 +294,24 @@
       "blockedBy": [],
       "progress": 5,
       "note": "Early stage. Add details here."
+    },
+    {
+      "id": "b8",
+      "type": "build",
+      "title": "Research Bot",
+      "priority": 8,
+      "blockedBy": [],
+      "progress": 0,
+      "note": "Background agent that scans Brain for gaps (unresolved wikilinks, Open Questions, TBD fields) and pre-researches them before they're needed. Writes stubs to Brain/Research/. Spec locked 2026-05-24."
+    },
+    {
+      "id": "b9",
+      "type": "build",
+      "title": "Critical Path / DAG View",
+      "priority": 9,
+      "blockedBy": [],
+      "progress": 0,
+      "note": "New dashboard tab: /critical-path. Goals as terminal nodes with due dates. Tasks/systems as intermediate nodes. Edges = dependencies. Color-coded by urgency. Cross-chain alerts when a shared dependency needs to start early. Spec locked 2026-05-24."
     }
   ]
 }
