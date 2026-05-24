@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T08:11:30",
+  "lastUpdated": "2026-05-24T08:29:43",
   "bots": [
     {
       "id": "cosmo",
@@ -221,7 +221,8 @@
       "priority": 1,
       "blockedBy": [],
       "progress": 75,
-      "note": "~/Projects/witty-realty-media/ \u2014 contact form + Vercel deploy is the remaining blocker before this ships."
+      "note": "~/Projects/witty-realty-media/ \u2014 contact form + Vercel deploy is the remaining blocker before this ships.",
+      "category": "WRM"
     },
     {
       "id": "b2",
@@ -230,7 +231,8 @@
       "priority": 2,
       "blockedBy": [],
       "progress": 40,
-      "note": "Restaurant tracker at ~/Projects/forklore/. Auth screen done. Next: test sign-up flow end-to-end."
+      "note": "Restaurant tracker at ~/Projects/forklore/. Auth screen done. Next: test sign-up flow end-to-end.",
+      "category": "New Ventures"
     },
     {
       "id": "b3",
@@ -239,7 +241,8 @@
       "priority": 3,
       "blockedBy": [],
       "progress": 65,
-      "note": "~/Projects/witty-cfo/ \u2014 biweekly cron running, math locked. Next: OpEx section + Cosmo dispatch hook."
+      "note": "~/Projects/witty-cfo/ \u2014 biweekly cron running, math locked. Next: OpEx section + Cosmo dispatch hook.",
+      "category": "AI Staff"
     },
     {
       "id": "b4",
@@ -248,7 +251,8 @@
       "priority": 4,
       "blockedBy": [],
       "progress": 90,
-      "note": "Running on Local. Craigslist only, Cosmo-integrated. No active work needed."
+      "note": "Running on Local. Craigslist only, Cosmo-integrated. No active work needed.",
+      "category": "Tools"
     },
     {
       "id": "b5",
@@ -257,7 +261,8 @@
       "priority": 5,
       "blockedBy": [],
       "progress": 80,
-      "note": "Built, not scheduled. Yelp + Maps leads, 5/day at 5pm. Needs a schedule decision."
+      "note": "Built, not scheduled. Yelp + Maps leads, 5/day at 5pm. Needs a schedule decision.",
+      "category": "Tools"
     },
     {
       "id": "b6",
@@ -266,7 +271,8 @@
       "priority": 6,
       "blockedBy": [],
       "progress": 55,
-      "note": "~/Projects/witty-dashboard/ \u2014 Tab restructure, Ticker, and progress bars in progress."
+      "note": "~/Projects/witty-dashboard/ \u2014 Tab restructure, Ticker, and progress bars in progress.",
+      "category": "AI Staff"
     },
     {
       "id": "b7",
@@ -275,7 +281,8 @@
       "priority": 7,
       "blockedBy": [],
       "progress": 70,
-      "note": "Live at la-permit-intel.vercel.app. Mobile layout, filters, trend chart done. Blocker: Socrata token not set in Vercel env."
+      "note": "Live at la-permit-intel.vercel.app. Mobile layout, filters, trend chart done. Blocker: Socrata token not set in Vercel env.",
+      "category": "New Ventures"
     },
     {
       "id": "p1",
@@ -302,7 +309,8 @@
       "priority": 8,
       "blockedBy": [],
       "progress": 0,
-      "note": "Background agent that scans Brain for gaps (unresolved wikilinks, Open Questions, TBD fields) and pre-researches them before they're needed. Writes stubs to Brain/Research/. Spec locked 2026-05-24."
+      "note": "Background agent that scans Brain for gaps (unresolved wikilinks, Open Questions, TBD fields) and pre-researches them before they're needed. Writes stubs to Brain/Research/. Spec locked 2026-05-24.",
+      "category": "AI Staff"
     },
     {
       "id": "b9",
@@ -311,7 +319,8 @@
       "priority": 9,
       "blockedBy": [],
       "progress": 0,
-      "note": "New dashboard tab: /critical-path. Goals as terminal nodes with due dates. Tasks/systems as intermediate nodes. Edges = dependencies. Color-coded by urgency. Cross-chain alerts when a shared dependency needs to start early. Spec locked 2026-05-24."
+      "note": "New dashboard tab: /critical-path. Goals as terminal nodes with due dates. Tasks/systems as intermediate nodes. Edges = dependencies. Color-coded by urgency. Cross-chain alerts when a shared dependency needs to start early. Spec locked 2026-05-24.",
+      "category": "AI Staff"
     }
   ]
 }
