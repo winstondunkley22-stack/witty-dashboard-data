@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T19:33:50",
+  "lastUpdated": "2026-05-24T02:59:27",
   "bots": [
     {
       "id": "cosmo",
@@ -16,10 +16,44 @@
       "name": "CFO",
       "role": "Finance",
       "status": "update",
-      "note": "Waterfall locked, pending review",
-      "currentTask": "Waterfall pending review",
+      "note": "OpEx section not yet built",
+      "currentTask": "Biweekly cron running \u2014 next report May 30",
       "parent": "cosmo",
-      "group": "staff"
+      "group": "staff",
+      "brief": {
+        "lastRun": "2026-05-16",
+        "lastPeriod": "May 1\u201315",
+        "lastRunSummary": "Revenue $2,390.62 \u00b7 WD $1,297.95 / TY $1,092.67 \u00b7 Distributable $906.03 \u00b7 A/R $3,671",
+        "needsDecision": [
+          {
+            "text": "QBO OAuth \u2014 Path A (Intuit review, days to approve) or Path B (CSV-based, works today)? Blocking CFO automation.",
+            "urgency": "high"
+          },
+          {
+            "text": "Aerial Tour split \u2014 50/50 with Ty or different? Affects waterfall calculations.",
+            "urgency": "high"
+          },
+          {
+            "text": "Signature Video \u2014 name, price, and split still undefined.",
+            "urgency": "medium"
+          }
+        ],
+        "needsApproval": [
+          {
+            "text": "Lili invoice \u2014 $187.85 to Winston. Ready to send once QB Cost of Labor sub-accounts are created."
+          }
+        ],
+        "openQuestions": [
+          "Shore Hotel invoice \u2014 was it already sent before the Direction/Production restructure? Need to confirm before editing.",
+          "Invoice due-date language \u2014 'due upon receipt' in use but exact terms not finalized."
+        ],
+        "queue": [
+          "Build OpEx section in biweekly report",
+          "Wire Cosmo \u2192 CFO dispatch hook (blocked by Cosmo restart)",
+          "Create QB vendors: Aidn, Jared",
+          "Update QB products: Direction, Production \u2014 retire old Day Rate line items"
+        ]
+      }
     },
     {
       "id": "cco",
