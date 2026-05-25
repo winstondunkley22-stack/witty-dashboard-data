@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T11:03:21",
+  "lastUpdated": "2026-05-25T12:12:26",
   "bots": [
     {
       "id": "cosmo",
@@ -321,6 +321,16 @@
       "progress": 0,
       "note": "New dashboard tab: /critical-path. Goals as terminal nodes with due dates. Tasks/systems as intermediate nodes. Edges = dependencies. Color-coded by urgency. Cross-chain alerts when a shared dependency needs to start early. Spec locked 2026-05-24.",
       "category": "AI Staff"
+    },
+    {
+      "id": "b10",
+      "type": "build",
+      "title": "Eddie Lab",
+      "priority": 10,
+      "blockedBy": [],
+      "progress": 45,
+      "note": "Photo editor at ~/Eddie_Lab/. Bracket enhance + Ollama feedback loop. Shore Hotel training set in progress.",
+      "category": "Tools"
     }
   ]
 }
