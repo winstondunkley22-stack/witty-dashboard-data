@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T12:45:44",
+  "lastUpdated": "2026-05-25T12:52:49",
   "bots": [
     {
       "id": "cosmo",
@@ -25,15 +25,6 @@
         "lastPeriod": "May 1\u201315",
         "lastRunSummary": "Revenue $2,390.62 \u00b7 WD $1,297.95 / TY $1,092.67 \u00b7 Distributable $906.03 \u00b7 A/R $3,671",
         "needsDecision": [
-          {
-            "text": "Aerial Tour split \u2014 50/50 with Ty or different? Affects waterfall calculations.",
-            "urgency": "high",
-            "options": [
-              "50/50 confirmed",
-              "Different split \u2014 see notes below",
-              "Not confirmed yet"
-            ]
-          },
           {
             "text": "Signature Video \u2014 name, price, and split still undefined.",
             "urgency": "medium"
@@ -130,15 +121,6 @@
       ]
     },
     {
-      "id": "bq3",
-      "q": "Aerial Tour split \u2014 did you confirm with Ty?",
-      "options": [
-        "50/50 confirmed",
-        "Different split \u2014 see notes",
-        "Not confirmed yet"
-      ]
-    },
-    {
       "id": "bq4",
       "q": "Signature Video \u2014 what got locked today?",
       "options": [
@@ -194,14 +176,6 @@
         "t3"
       ],
       "note": "Adds a hook so Cosmo can trigger the CFO agent on command. Small wiring job \u2014 blocked until Cosmo is restarted and confirmed working."
-    },
-    {
-      "id": "t6",
-      "type": "task",
-      "title": "Aerial Tour split \u2014 confirm with Ty",
-      "priority": 6,
-      "blockedBy": [],
-      "note": "Revenue split for Aerial Tour jobs with Ty. Currently assumed 50/50 but not confirmed. Affects CFO waterfall calculations."
     },
     {
       "id": "t7",
