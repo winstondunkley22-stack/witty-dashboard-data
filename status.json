@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T13:16:57",
+  "lastUpdated": "2026-05-25T13:22:01",
   "bots": [
     {
       "id": "cosmo",
@@ -30,11 +30,7 @@
             "urgency": "medium"
           }
         ],
-        "needsApproval": [
-          {
-            "text": "Lili invoice \u2014 $187.85 to Winston. Ready to send once QB Cost of Labor sub-accounts are created."
-          }
-        ],
+        "needsApproval": [],
         "openQuestions": [
           "Shore Hotel invoice \u2014 was it already sent before the Direction/Production restructure? Need to confirm before editing.",
           "Invoice due-date language \u2014 'due upon receipt' in use but exact terms not finalized."
@@ -304,11 +300,11 @@
     {
       "id": "b10",
       "type": "build",
-      "title": "Eddie Lab",
+      "title": "F1 Pit Wall",
       "priority": 10,
       "blockedBy": [],
-      "progress": 45,
-      "note": "Photo editor at ~/Eddie_Lab/. Bracket enhance + Ollama feedback loop. Shore Hotel training set in progress.",
+      "progress": 80,
+      "note": "Live F1 timing dashboard at ~/Projects/f1-pitwall/ on port 8765. Timing tower, mini sectors, tyre strategy, lap chart all live. Track map + telemetry historical only (F1 withholds GPS from free feed). Restart: kill $(lsof -ti :8765); nohup /opt/homebrew/bin/python3.11 ~/Projects/f1-pitwall/server.py > /tmp/f1-pitwall.log 2>&1 &",
       "category": "Tools"
     }
   ]
