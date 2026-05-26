@@ -1,0 +1,17 @@
+{
+  "id": "q_test_20260525",
+  "items": [
+    {
+      "title": "Signature Video price locked at $3500",
+      "agent": "CFO",
+      "description": "Winston confirmed $3500 price point for the new Signature Video product"
+    },
+    {
+      "title": "Dan meeting: MLS alerts is Module 1 candidate",
+      "agent": "COSMO",
+      "description": "Dan meeting confirmed MLS alerts as the first module to build for the AI tools business"
+    }
+  ],
+  "source": "test_capture.md",
+  "ts": "2026-05-26T04:13:30.589942+00:00"
+}
