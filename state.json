@@ -1,0 +1,20 @@
+{
+  "agentInbox": [
+    {
+      "id": "dispatch_1779777926_0",
+      "agent": "CFO",
+      "type": "complete",
+      "title": "Signature Video price locked at $3500",
+      "body": "**Logged:** Signature Video service locked at $3,500.\n\n**Book implication:** This is your baseline revenue recognition point for this service tier on a cash basis. When a client pays, you record $3,500 revenue. Ensure contract terms clarify payment timing (upfront, milestone, post-delivery) so there's no gap between cash receipt and service delivery.",
+      "ts": "2026-05-26T06:45:28.651465+00:00"
+    },
+    {
+      "id": "dispatch_1779777926_1",
+      "agent": "COSMO",
+      "type": "complete",
+      "title": "Dan meeting: MLS alerts is Module 1 candidate",
+      "body": "**Acknowledged.** MLS alerts is greenlit as Module 1. \n\n**Immediate next step:** Nail down scope and timeline with Dan\u2014what's the MVP feature set and when does he need it ready for development handoff?",
+      "ts": "2026-05-26T06:45:29.997958+00:00"
+    }
+  ]
+}
