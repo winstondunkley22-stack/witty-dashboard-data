@@ -1,0 +1,17 @@
+{
+  "id": "q_test_20260525d",
+  "items": [
+    {
+      "title": "Signature Video price locked at $3500",
+      "agent": "CFO",
+      "description": "Winston confirmed $3500 price point"
+    },
+    {
+      "title": "Dan meeting: MLS alerts is Module 1 candidate",
+      "agent": "COSMO",
+      "description": "Dan confirmed MLS alerts as first module"
+    }
+  ],
+  "source": "test_capture.md",
+  "ts": "2026-05-26T06:45:24.247958+00:00"
+}
