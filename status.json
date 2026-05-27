@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T09:01:24",
+  "lastUpdated": "2026-05-27T09:31:26",
   "bots": [
     {
       "id": "cosmo",
@@ -197,7 +197,12 @@
       "blockedBy": [],
       "progress": 75,
       "note": "~/Projects/witty-realty-media/ \u2014 contact form + Vercel deploy is the remaining blocker before this ships.",
-      "category": "WRM"
+      "category": "WRM",
+      "brainPath": "Projects/WRM_Website.md",
+      "nextSteps": [
+        "Add contact form to ~/Projects/witty-realty-media/",
+        "Deploy to Vercel: run vercel --prod from ~/Projects/witty-realty-media/"
+      ]
     },
     {
       "id": "b2",
@@ -207,7 +212,11 @@
       "blockedBy": [],
       "progress": 40,
       "note": "Restaurant tracker at ~/Projects/forklore/. Auth screen done. Next: test sign-up flow end-to-end.",
-      "category": "New Ventures"
+      "category": "New Ventures",
+      "brainPath": "Projects/Forklore.md",
+      "nextSteps": [
+        "Run npm run dev from ~/Projects/forklore/ and walk through sign-up end-to-end"
+      ]
     },
     {
       "id": "b3",
@@ -217,7 +226,12 @@
       "blockedBy": [],
       "progress": 65,
       "note": "~/Projects/witty-cfo/ \u2014 biweekly cron running, math locked. Next: OpEx section + Cosmo dispatch hook.",
-      "category": "AI Staff"
+      "category": "AI Staff",
+      "brainPath": "Bots/CFO.md",
+      "nextSteps": [
+        "Build OpEx section in the biweekly report script (~/Projects/witty-cfo/)",
+        "Wire Cosmo \u2192 CFO dispatch hook \u2014 blocked by Cosmo restart first"
+      ]
     },
     {
       "id": "b4",
@@ -227,7 +241,11 @@
       "blockedBy": [],
       "progress": 90,
       "note": "Running on Local. Craigslist only, Cosmo-integrated. No active work needed.",
-      "category": "Tools"
+      "category": "Tools",
+      "brainPath": "Projects/Housing_Scraper.md",
+      "nextSteps": [
+        "Running fine \u2014 no action needed unless Cosmo alerts stop arriving"
+      ]
     },
     {
       "id": "b5",
@@ -237,7 +255,11 @@
       "blockedBy": [],
       "progress": 80,
       "note": "Built, not scheduled. Yelp + Maps leads, 5/day at 5pm. Needs a schedule decision.",
-      "category": "Tools"
+      "category": "Tools",
+      "brainPath": "Projects/Business_Scrubber.md",
+      "nextSteps": [
+        "Decide: schedule it (cron at 5pm daily) or keep as manual-run only"
+      ]
     },
     {
       "id": "b6",
@@ -247,7 +269,11 @@
       "blockedBy": [],
       "progress": 55,
       "note": "~/Projects/witty-dashboard/ \u2014 Tab restructure, Ticker, and progress bars in progress.",
-      "category": "AI Staff"
+      "category": "AI Staff",
+      "nextSteps": [
+        "Build the dispatch loop (see 2026-05-26 dispatch-loop-handoff in Brain/Sessions/)",
+        "Complete Ticker component and tab restructure"
+      ]
     },
     {
       "id": "b7",
@@ -257,7 +283,10 @@
       "blockedBy": [],
       "progress": 70,
       "note": "Live at la-permit-intel.vercel.app. Mobile layout, filters, trend chart done. Blocker: Socrata token not set in Vercel env.",
-      "category": "New Ventures"
+      "category": "New Ventures",
+      "nextSteps": [
+        "Set SOCRATA_TOKEN in Vercel: vercel env add SOCRATA_TOKEN production"
+      ]
     },
     {
       "id": "p1",
