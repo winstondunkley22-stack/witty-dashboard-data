@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T12:25:10",
+  "lastUpdated": "2026-05-27T12:55:16",
   "bots": [
     {
       "id": "cosmo",
@@ -317,5 +317,16 @@
       "note": "Live F1 timing dashboard running at ~/Projects/f1-pitwall/ on port 8765. Shows timing, tyre strategy, and lap chart live. Restart: kill $(lsof -ti :8765); nohup /opt/homebrew/bin/python3.11 ~/Projects/f1-pitwall/server.py > /tmp/f1-pitwall.log 2>&1 &",
       "category": "Tools"
     }
-  ]
+  ],
+  "lastSession": {
+    "date": "2026-05-27",
+    "topic": "Dashboard Rebuild",
+    "summary": "Complete UI reset. Previous version had tabs, dark nav, complex overlay state \u2014 all stripped.",
+    "next": [
+      "Delete dead pages?",
+      "Jobs tab: original dashboard had a Jobs tab for client shoot tracking. Current Tasks tab is for internal action items only. Separate view still needed?",
+      "What to add next \u2014 Winston drives, not me"
+    ],
+    "file": "2026-05-27_dashboard-rebuild.md"
+  }
 }
