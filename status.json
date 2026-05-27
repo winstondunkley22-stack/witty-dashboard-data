@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T10:25:03",
+  "lastUpdated": "2026-05-27T10:55:05",
   "bots": [
     {
       "id": "cosmo",
@@ -16,8 +16,8 @@
       "name": "CFO",
       "role": "Finance",
       "status": "update",
-      "note": "OpEx section not yet built",
-      "currentTask": "Biweekly cron running \u2014 next report May 30",
+      "note": "Spending section not yet built",
+      "currentTask": "Biweekly report running \u2014 next one May 30",
       "parent": "cosmo",
       "group": "staff",
       "brief": {
@@ -26,20 +26,20 @@
         "lastRunSummary": "Revenue $2,390.62 \u00b7 WD $1,297.95 / TY $1,092.67 \u00b7 Distributable $906.03 \u00b7 A/R $3,671",
         "needsDecision": [
           {
-            "text": "Signature Video \u2014 name, price, and split still undefined.",
+            "text": "Signature Video \u2014 still need a name, price, and how the split works.",
             "urgency": "medium"
           }
         ],
         "needsApproval": [],
         "openQuestions": [
-          "Shore Hotel invoice \u2014 was it already sent before the Direction/Production restructure? Need to confirm before editing.",
-          "Invoice due-date language \u2014 'due upon receipt' in use but exact terms not finalized."
+          "Shore Hotel invoice \u2014 was it already sent before the Direction/Production rename? Need to confirm before touching it.",
+          "Invoice payment terms \u2014 currently says 'due upon receipt' but exact terms haven't been locked."
         ],
         "queue": [
-          "Build OpEx section in biweekly report",
-          "Wire Cosmo \u2192 CFO dispatch hook (blocked by Cosmo restart)",
-          "Create QB vendors: Aidn, Jared",
-          "Update QB products: Direction, Production \u2014 retire old Day Rate line items"
+          "Add the spending/expenses section to the biweekly financial report",
+          "Connect Cosmo to the CFO so you can run reports from Telegram (blocked by Cosmo restart)",
+          "Add Aidn and Jared as vendors in QuickBooks",
+          "Update QuickBooks products: rename to Direction and Production, remove the old Day Rate items"
         ]
       }
     },
@@ -138,56 +138,38 @@
   ],
   "items": [
     {
-      "id": "t1",
-      "type": "task",
-      "title": "Create QB Cost of Labor sub-accounts",
-      "priority": 1,
-      "blockedBy": [],
-      "note": "In QuickBooks: COGS > Cost of Labor. Manually add two sub-accounts: 'Cost of Labor - Dunkley' and 'Cost of Labor - Frost'. Required before any shoot costs can be categorized by person \u2014 which blocks the Lili invoice."
-    },
-    {
-      "id": "t2",
-      "type": "task",
-      "title": "Lili invoice",
-      "priority": 2,
-      "blockedBy": [
-        "t1"
-      ],
-      "note": "Invoice for Lili Geller. Blocked until QB sub-accounts (t1) exist. Still need from you: line items for the shoot and what Aidn was paid."
-    },
-    {
       "id": "t3",
       "type": "task",
-      "title": "Restart Cosmo on Local",
-      "priority": 3,
+      "title": "Restart Cosmo on your Local machine",
+      "priority": 1,
       "blockedBy": [],
-      "note": "SSH into Local (192.168.1.73) and restart the Cosmo process. CFO rules and cache fixes are staged but not live until restarted. Run: pkill -f cosmo.py && nohup python3 ~/Cosmo/cosmo.py >> ~/Cosmo/cosmo.log 2>&1 &"
+      "note": "Cosmo hasn't been restarted since the last round of updates, so the CFO's new rules and fixes aren't live yet. SSH into your Local machine (192.168.1.73) and restart it. Command: pkill -f cosmo.py && nohup python3 ~/Cosmo/cosmo.py >> ~/Cosmo/cosmo.log 2>&1 &"
     },
     {
       "id": "t4",
       "type": "task",
-      "title": "Wire Cosmo \u2192 CFO dispatch hook",
-      "priority": 4,
+      "title": "Connect Cosmo to the CFO agent",
+      "priority": 2,
       "blockedBy": [
         "t3"
       ],
-      "note": "Adds a hook so Cosmo can trigger the CFO agent on command. Small wiring job \u2014 blocked until Cosmo is restarted and confirmed working."
+      "note": "Once Cosmo is back up, this lets you ask Cosmo from Telegram to kick off your financial report \u2014 instead of triggering it by hand each time. It's a small one-time setup. Can't be done until Cosmo is confirmed running."
     },
     {
       "id": "t7",
       "type": "task",
-      "title": "Signature video \u2014 name, price, split",
-      "priority": 7,
+      "title": "Lock in the Signature Video \u2014 name, price, and split",
+      "priority": 3,
       "blockedBy": [],
-      "note": "Premium product that needs a name, price point, and partner split defined. CMO can't market it and CFO can't track it until these are locked."
+      "note": "This is a premium product WRM wants to offer. It needs a name, a price, and an agreed split between you and Tyler. Until those three things are decided, marketing can't promote it and the CFO can't track it."
     },
     {
       "id": "t8",
       "type": "task",
-      "title": "Welcome deck PDF export",
-      "priority": 8,
+      "title": "Export the Welcome deck as a PDF",
+      "priority": 4,
       "blockedBy": [],
-      "note": "Export v15 Welcome deck PPTX from PowerPoint as PDF, then run: python3 ~/Desktop/Claude\\ Outputs/Design/set_pdf_spread.py <file.pdf>"
+      "note": "Export the v15 Welcome deck PPTX from PowerPoint as a PDF, then run: python3 ~/Desktop/Claude\\ Outputs/Design/set_pdf_spread.py <file.pdf>"
     },
     {
       "id": "b1",
@@ -196,7 +178,7 @@
       "priority": 1,
       "blockedBy": [],
       "progress": 75,
-      "note": "~/Projects/witty-realty-media/ \u2014 contact form + Vercel deploy is the remaining blocker before this ships.",
+      "note": "Code is at ~/Projects/witty-realty-media/. The contact form and Vercel deploy are the last two things before this is live.",
       "category": "WRM",
       "brainPath": "Projects/WRM_Website.md",
       "nextSteps": [
@@ -211,7 +193,7 @@
       "priority": 2,
       "blockedBy": [],
       "progress": 40,
-      "note": "Restaurant tracker at ~/Projects/forklore/. Auth screen done. Next: test sign-up flow end-to-end.",
+      "note": "Restaurant tracker at ~/Projects/forklore/. The login screen is built. Next step is testing the sign-up flow start to finish.",
       "category": "New Ventures",
       "brainPath": "Projects/Forklore.md",
       "nextSteps": [
@@ -225,12 +207,12 @@
       "priority": 3,
       "blockedBy": [],
       "progress": 65,
-      "note": "~/Projects/witty-cfo/ \u2014 biweekly cron running, math locked. Next: OpEx section + Cosmo dispatch hook.",
+      "note": "Code is at ~/Projects/witty-cfo/. The biweekly report runs on schedule and the math is locked. Still needs the spending/expenses section and a Telegram trigger.",
       "category": "AI Staff",
       "brainPath": "Bots/CFO.md",
       "nextSteps": [
-        "Build OpEx section in the biweekly report script (~/Projects/witty-cfo/)",
-        "Wire Cosmo \u2192 CFO dispatch hook \u2014 blocked by Cosmo restart first"
+        "Build the spending/expenses section in the biweekly report (~/Projects/witty-cfo/)",
+        "Connect Cosmo to the CFO so you can trigger reports from Telegram \u2014 wait until Cosmo is restarted first"
       ]
     },
     {
@@ -240,7 +222,7 @@
       "priority": 4,
       "blockedBy": [],
       "progress": 90,
-      "note": "Running on Local. Craigslist only, Cosmo-integrated. No active work needed.",
+      "note": "Running on your Local machine. Monitors Craigslist and sends alerts through Cosmo. No active work needed.",
       "category": "Tools",
       "brainPath": "Projects/Housing_Scraper.md",
       "nextSteps": [
@@ -254,25 +236,24 @@
       "priority": 5,
       "blockedBy": [],
       "progress": 80,
-      "note": "Built, not scheduled. Yelp + Maps leads, 5/day at 5pm. Needs a schedule decision.",
+      "note": "Built and ready. Pulls business leads from Yelp and Google Maps, 5 per day at 5pm. Just needs a decision on whether to schedule it or keep it as a manual run.",
       "category": "Tools",
       "brainPath": "Projects/Business_Scrubber.md",
       "nextSteps": [
-        "Decide: schedule it (cron at 5pm daily) or keep as manual-run only"
+        "Decide: schedule it to run daily at 5pm, or keep it as a manual run only"
       ]
     },
     {
       "id": "b6",
       "type": "build",
-      "title": "Dashboard Runner",
+      "title": "Dashboard",
       "priority": 6,
       "blockedBy": [],
       "progress": 55,
-      "note": "~/Projects/witty-dashboard/ \u2014 Tab restructure, Ticker, and progress bars in progress.",
+      "note": "This dashboard. Code is at ~/Projects/witty-dashboard/. Still being rebuilt.",
       "category": "AI Staff",
       "nextSteps": [
-        "Build the dispatch loop (see 2026-05-26 dispatch-loop-handoff in Brain/Sessions/)",
-        "Complete Ticker component and tab restructure"
+        "Keep going on the rebuild based on Winston's feedback"
       ]
     },
     {
@@ -282,10 +263,10 @@
       "priority": 7,
       "blockedBy": [],
       "progress": 70,
-      "note": "Live at la-permit-intel.vercel.app. Mobile layout, filters, trend chart done. Blocker: Socrata token not set in Vercel env.",
+      "note": "Live at la-permit-intel.vercel.app. Filters and trend chart are done. One thing left: the data API key isn't set in Vercel yet.",
       "category": "New Ventures",
       "nextSteps": [
-        "Set SOCRATA_TOKEN in Vercel: vercel env add SOCRATA_TOKEN production"
+        "Add the SOCRATA_TOKEN to Vercel: vercel env add SOCRATA_TOKEN production"
       ]
     },
     {
@@ -295,7 +276,7 @@
       "priority": 1,
       "blockedBy": [],
       "progress": 20,
-      "note": "Winston + Dan (YC alum). Closing the AI implementation gap for solos/SMBs. Survey locked. Dan meeting 2026-05-22. Real estate is the lead vertical \u2014 goal is to map Dan's RE workflow and find first module candidates."
+      "note": "Winston + Dan (YC alum). Building AI tools for solo operators and small businesses. Survey is done. Real estate is the first vertical \u2014 goal is to map Dan's workflow and figure out what to build first."
     },
     {
       "id": "p2",
@@ -313,17 +294,17 @@
       "priority": 8,
       "blockedBy": [],
       "progress": 0,
-      "note": "Background agent that scans Brain for gaps (unresolved wikilinks, Open Questions, TBD fields) and pre-researches them before they're needed. Writes stubs to Brain/Research/. Spec locked 2026-05-24.",
+      "note": "A background agent that scans your Brain notes for open questions and gaps, and starts researching them before you need the answers. Spec is locked.",
       "category": "AI Staff"
     },
     {
       "id": "b9",
       "type": "build",
-      "title": "Critical Path / DAG View",
+      "title": "Critical Path View",
       "priority": 9,
       "blockedBy": [],
       "progress": 0,
-      "note": "New dashboard tab: /critical-path. Goals as terminal nodes with due dates. Tasks/systems as intermediate nodes. Edges = dependencies. Color-coded by urgency. Cross-chain alerts when a shared dependency needs to start early. Spec locked 2026-05-24.",
+      "note": "A new dashboard view that shows everything as a dependency map \u2014 goals at the end, tasks and systems in between, with lines showing what blocks what. Spec is locked.",
       "category": "AI Staff"
     },
     {
@@ -333,7 +314,7 @@
       "priority": 10,
       "blockedBy": [],
       "progress": 80,
-      "note": "Live F1 timing dashboard at ~/Projects/f1-pitwall/ on port 8765. Timing tower, mini sectors, tyre strategy, lap chart all live. Track map + telemetry historical only (F1 withholds GPS from free feed). Restart: kill $(lsof -ti :8765); nohup /opt/homebrew/bin/python3.11 ~/Projects/f1-pitwall/server.py > /tmp/f1-pitwall.log 2>&1 &",
+      "note": "Live F1 timing dashboard running at ~/Projects/f1-pitwall/ on port 8765. Shows timing, tyre strategy, and lap chart live. Restart: kill $(lsof -ti :8765); nohup /opt/homebrew/bin/python3.11 ~/Projects/f1-pitwall/server.py > /tmp/f1-pitwall.log 2>&1 &",
       "category": "Tools"
     }
   ]
