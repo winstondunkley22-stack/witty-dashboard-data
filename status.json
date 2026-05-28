@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T17:22:06",
+  "lastUpdated": "2026-05-27T17:52:08",
   "bots": [
     {
       "id": "cosmo",
@@ -320,13 +320,13 @@
   ],
   "lastSession": {
     "date": "2026-05-27",
-    "topic": "Dashboard Rebuild",
-    "summary": "Complete UI reset. Previous version had tabs, dark nav, complex overlay state \u2014 all stripped.",
+    "topic": "Dashboard Map Rebuild",
+    "summary": "Dashboard Map Rebuild",
     "next": [
-      "Delete dead pages?",
-      "Jobs tab: original dashboard had a Jobs tab for client shoot tracking. Current Tasks tab is for internal action items only. Separate view still needed?",
-      "What to add next \u2014 Winston drives, not me"
+      "Winston reviews map at localhost:3000/map \u2014 feedback pending",
+      "Link map from main dashboard page (or decide to keep it URL-only)",
+      "Fix brain-sync.py timeout (network issue reaching GitHub)"
     ],
-    "file": "2026-05-27_dashboard-rebuild.md"
+    "file": "2026-05-27_dashboard-map-rebuild.md"
   }
 }
