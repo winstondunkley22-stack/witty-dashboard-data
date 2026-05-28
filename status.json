@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T00:13:48",
+  "lastUpdated": "2026-05-28T00:43:50",
   "bots": [
     {
       "id": "cosmo",
@@ -316,13 +316,37 @@
       "progress": 80,
       "note": "Live F1 timing dashboard running at ~/Projects/f1-pitwall/ on port 8765. Shows timing, tyre strategy, and lap chart live. Restart: kill $(lsof -ti :8765); nohup /opt/homebrew/bin/python3.11 ~/Projects/f1-pitwall/server.py > /tmp/f1-pitwall.log 2>&1 &",
       "category": "Tools"
+    },
+    {
+      "id": "t9",
+      "type": "task",
+      "title": "ATC trial run \u2014 verify overhaul works against live board",
+      "priority": 5,
+      "blockedBy": [],
+      "note": "Full ATC overhaul is built and on Local (192.168.1.73). Has NEVER been trial-run against the live Monday.com board. This is the test that proves whether the known bug (missed non-Photos Requested jobs) is actually fixed. Do a 4pm trial run, watch logs for LAANC auth check and OSRM ETA lines. Turn EXPLAIN_MODE off once stable."
+    },
+    {
+      "id": "t10",
+      "type": "task",
+      "title": "Test dispatch loop \u2014 verify inbox cards show in dashboard",
+      "priority": 6,
+      "blockedBy": [],
+      "note": "agent-runner.py is deployed and running every 5 min. Two test cards (CFO + COSMO) exist in state.json agentInbox. The UI hasn't been verified \u2014 check if the rose card with pulsing dot actually appears on the dashboard. This validates the full pipeline: Brain capture \u2192 router \u2192 agent \u2192 inbox card."
+    },
+    {
+      "id": "t11",
+      "type": "task",
+      "title": "Connect GitHub remote to Vercel \u2014 auto-alias on deploy",
+      "priority": 7,
+      "blockedBy": [],
+      "note": "Currently the witty-hq.vercel.app alias needs to be manually set after every deploy. Connecting the GitHub remote to Vercel will make deploys auto-assign the alias so it sticks without the manual step."
     }
   ],
   "lastSession": {
     "date": "2026-05-28",
-    "topic": "Session",
-    "summary": "No session note written.",
+    "topic": "Critical Paths Foundation",
+    "summary": "Critical Paths Foundation",
     "next": [],
-    "file": null
+    "file": "2026-05-28_critical-paths-foundation.md"
   }
 }
