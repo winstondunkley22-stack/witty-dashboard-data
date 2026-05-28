@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T12:54:24",
+  "lastUpdated": "2026-05-28T15:55:25",
   "bots": [
     {
       "id": "cosmo",
@@ -344,9 +344,9 @@
   ],
   "lastSession": {
     "date": "2026-05-28",
-    "topic": "Session Close",
-    "summary": "Session Close",
+    "topic": "La Permit Intel Drilldown Export",
+    "summary": "La Permit Intel Drilldown Export",
     "next": [],
-    "file": "2026-05-28_session-close.md"
+    "file": "2026-05-28_la-permit-intel-drilldown-export.md"
   }
 }
