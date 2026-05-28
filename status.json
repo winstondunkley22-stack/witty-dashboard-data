@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T00:43:50",
+  "lastUpdated": "2026-05-28T01:13:52",
   "bots": [
     {
       "id": "cosmo",
@@ -344,9 +344,9 @@
   ],
   "lastSession": {
     "date": "2026-05-28",
-    "topic": "Critical Paths Foundation",
-    "summary": "Critical Paths Foundation",
+    "topic": "System Architecture Qa",
+    "summary": "System Architecture Qa",
     "next": [],
-    "file": "2026-05-28_critical-paths-foundation.md"
+    "file": "2026-05-28_system-architecture-qa.md"
   }
 }
