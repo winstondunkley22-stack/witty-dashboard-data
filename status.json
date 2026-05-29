@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T13:17:31",
+  "lastUpdated": "2026-05-29T13:49:09",
   "bots": [
     {
       "id": "cosmo",
@@ -373,9 +373,9 @@
   ],
   "lastSession": {
     "date": "2026-05-29",
-    "topic": "Mother Nature Cosmo Topology",
-    "summary": "Mother Nature Cosmo Topology",
+    "topic": "Ecosystem Map Topology",
+    "summary": "Ecosystem Map Topology",
     "next": [],
-    "file": "2026-05-29_mother-nature-cosmo-topology.md"
+    "file": "2026-05-29_ecosystem-map-topology.md"
   }
 }
