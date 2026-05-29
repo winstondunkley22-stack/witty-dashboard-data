@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T22:51:44",
+  "lastUpdated": "2026-05-28T23:21:46",
   "bots": [
     {
       "id": "cosmo",
@@ -344,9 +344,9 @@
   ],
   "lastSession": {
     "date": "2026-05-28",
-    "topic": "Session Close",
-    "summary": "Session Close",
+    "topic": "Claude Design Brand Guide",
+    "summary": "Claude Design Brand Guide",
     "next": [],
-    "file": "2026-05-28_session-close.md"
+    "file": "2026-05-28_claude-design-brand-guide.md"
   }
 }
