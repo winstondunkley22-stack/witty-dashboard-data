@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T00:51:53",
+  "lastUpdated": "2026-05-29T01:21:54",
   "bots": [
     {
       "id": "cosmo",
@@ -340,6 +340,35 @@
       "priority": 7,
       "blockedBy": [],
       "note": "Currently the witty-hq.vercel.app alias needs to be manually set after every deploy. Connecting the GitHub remote to Vercel will make deploys auto-assign the alias so it sticks without the manual step."
+    },
+    {
+      "id": "t12",
+      "type": "task",
+      "title": "QB: Create income account \u2014 Client Reimbursements",
+      "priority": 8,
+      "blockedBy": [],
+      "group": "pass-through-setup",
+      "note": "Pass-through setup (1 of 3). In QuickBooks: Chart of Accounts \u2192 New \u2192 Income \u2192 name it 'Client Reimbursements'. This is where client payments for pass-through costs land. The CFO script already excludes this account from gross revenue \u2014 no script changes needed."
+    },
+    {
+      "id": "t13",
+      "type": "task",
+      "title": "QB: Create expense account \u2014 Client Reimbursements - Cost",
+      "priority": 9,
+      "blockedBy": [],
+      "group": "pass-through-setup",
+      "note": "Pass-through setup (2 of 3). In QuickBooks: Chart of Accounts \u2192 New \u2192 Expenses \u2192 name it 'Client Reimbursements - Cost'. When you pay a vendor for a pass-through item, code the payment here \u2014 NOT back to the income account. The CFO script strips this from the expense base symmetrically."
+    },
+    {
+      "id": "t14",
+      "type": "task",
+      "title": "QB: Create product/service item \u2014 Equipment Rental (Pass-Through)",
+      "priority": 10,
+      "blockedBy": [
+        "t12"
+      ],
+      "group": "pass-through-setup",
+      "note": "Pass-through setup (3 of 3). In QuickBooks: Products & Services \u2192 New \u2192 Service \u2192 name it 'Equipment Rental - Pass-Through' (or whatever fits) \u2192 map it to the 'Client Reimbursements' income account. Use this line item on client invoices for any pass-through costs."
     }
   ],
   "lastSession": {
