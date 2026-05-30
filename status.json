@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T19:15:08",
+  "lastUpdated": "2026-05-29T19:59:19",
   "bots": [
     {
       "id": "cosmo",
@@ -373,9 +373,9 @@
   ],
   "lastSession": {
     "date": "2026-05-29",
-    "topic": "Skills Exploration",
-    "summary": "Skills Exploration",
+    "topic": "Ecosystem Topology Map",
+    "summary": "Ecosystem Topology Map",
     "next": [],
-    "file": "2026-05-29_skills-exploration.md"
+    "file": "2026-05-29_ecosystem-topology-map.md"
   }
 }
