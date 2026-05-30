@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T06:39:46",
+  "lastUpdated": "2026-05-30T13:43:23",
   "bots": [
     {
       "id": "cosmo",
@@ -373,9 +373,9 @@
   ],
   "lastSession": {
     "date": "2026-05-30",
-    "topic": "Ecosystem Map Cosmo Dispatch",
-    "summary": "Ecosystem Map Cosmo Dispatch",
+    "topic": "Vault Org Archives",
+    "summary": "Vault Org Archives",
     "next": [],
-    "file": "2026-05-30_ecosystem-map-cosmo-dispatch.md"
+    "file": "2026-05-30_vault-org-archives.md"
   }
 }
