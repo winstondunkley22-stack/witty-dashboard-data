@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T01:24:30",
+  "lastUpdated": "2026-05-30T06:39:46",
   "bots": [
     {
       "id": "cosmo",
@@ -373,9 +373,9 @@
   ],
   "lastSession": {
     "date": "2026-05-30",
-    "topic": "Doctor Cosmo Ecosystem",
-    "summary": "Doctor Cosmo Ecosystem",
+    "topic": "Ecosystem Map Cosmo Dispatch",
+    "summary": "Ecosystem Map Cosmo Dispatch",
     "next": [],
-    "file": "2026-05-30_doctor-cosmo-ecosystem.md"
+    "file": "2026-05-30_ecosystem-map-cosmo-dispatch.md"
   }
 }
