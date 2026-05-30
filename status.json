@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T13:43:23",
+  "lastUpdated": "2026-05-30T14:19:25",
   "bots": [
     {
       "id": "cosmo",
@@ -373,9 +373,9 @@
   ],
   "lastSession": {
     "date": "2026-05-30",
-    "topic": "Vault Org Archives",
-    "summary": "Vault Org Archives",
+    "topic": "Doctor Agent Review",
+    "summary": "Doctor Agent Review",
     "next": [],
-    "file": "2026-05-30_vault-org-archives.md"
+    "file": "2026-05-30_doctor-agent-review.md"
   }
 }
