@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T23:24:23",
+  "lastUpdated": "2026-05-29T23:54:25",
   "bots": [
     {
       "id": "cosmo",
@@ -373,9 +373,9 @@
   ],
   "lastSession": {
     "date": "2026-05-29",
-    "topic": "Ecosystem Map Agent Skills",
-    "summary": "Ecosystem Map Agent Skills",
+    "topic": "Receipts Buildout",
+    "summary": "Receipts Buildout",
     "next": [],
-    "file": "2026-05-29_ecosystem-map-agent-skills.md"
+    "file": "2026-05-29_receipts-buildout.md"
   }
 }
