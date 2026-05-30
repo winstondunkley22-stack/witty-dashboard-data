@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T15:26:38",
+  "lastUpdated": "2026-05-30T16:24:21",
   "bots": [
     {
       "id": "cosmo",
@@ -373,9 +373,9 @@
   ],
   "lastSession": {
     "date": "2026-05-30",
-    "topic": "Doctor Agent Review",
-    "summary": "Doctor Agent Review",
+    "topic": "Agent Map Wiring",
+    "summary": "Agent Map Wiring",
     "next": [],
-    "file": "2026-05-30_doctor-agent-review.md"
+    "file": "2026-05-30_agent-map-wiring.md"
   }
 }
