@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T00:24:27",
+  "lastUpdated": "2026-05-30T00:54:28",
   "bots": [
     {
       "id": "cosmo",
@@ -373,9 +373,9 @@
   ],
   "lastSession": {
     "date": "2026-05-30",
-    "topic": "Doctor Agent Deploy",
-    "summary": "Doctor Agent Deploy",
+    "topic": "Ecosystem Architecture Doctor Buildout",
+    "summary": "Ecosystem Architecture Doctor Buildout",
     "next": [],
-    "file": "2026-05-30_doctor-agent-deploy.md"
+    "file": "2026-05-30_ecosystem-architecture-doctor-buildout.md"
   }
 }
