@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T00:54:28",
+  "lastUpdated": "2026-05-30T01:24:30",
   "bots": [
     {
       "id": "cosmo",
@@ -373,9 +373,9 @@
   ],
   "lastSession": {
     "date": "2026-05-30",
-    "topic": "Ecosystem Architecture Doctor Buildout",
-    "summary": "Ecosystem Architecture Doctor Buildout",
+    "topic": "Doctor Cosmo Ecosystem",
+    "summary": "Doctor Cosmo Ecosystem",
     "next": [],
-    "file": "2026-05-30_ecosystem-architecture-doctor-buildout.md"
+    "file": "2026-05-30_doctor-cosmo-ecosystem.md"
   }
 }
