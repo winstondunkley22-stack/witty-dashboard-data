@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T23:54:25",
+  "lastUpdated": "2026-05-30T00:24:27",
   "bots": [
     {
       "id": "cosmo",
@@ -372,10 +372,10 @@
     }
   ],
   "lastSession": {
-    "date": "2026-05-29",
-    "topic": "Receipts Buildout",
-    "summary": "Receipts Buildout",
+    "date": "2026-05-30",
+    "topic": "Doctor Agent Deploy",
+    "summary": "Doctor Agent Deploy",
     "next": [],
-    "file": "2026-05-29_receipts-buildout.md"
+    "file": "2026-05-30_doctor-agent-deploy.md"
   }
 }
