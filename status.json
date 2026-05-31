@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T00:30:14",
+  "lastUpdated": "2026-05-31T01:00:16",
   "bots": [
     {
       "id": "cosmo",
@@ -372,10 +372,10 @@
     }
   ],
   "lastSession": {
-    "date": "2026-05-30",
-    "topic": "Agent Buildout",
-    "summary": "Agent Buildout",
+    "date": "2026-05-31",
+    "topic": "Gap Research",
+    "summary": "Gap Research",
     "next": [],
-    "file": "2026-05-30_agent-buildout.md"
+    "file": "2026-05-31_gap-research.md"
   }
 }
