@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T02:12:55",
+  "lastUpdated": "2026-05-31T02:42:57",
   "bots": [
     {
       "id": "cosmo",
@@ -138,21 +138,11 @@
   ],
   "items": [
     {
-      "id": "t3",
-      "type": "task",
-      "title": "Restart Cosmo on your Local machine",
-      "priority": 1,
-      "blockedBy": [],
-      "note": "Cosmo hasn't been restarted since the last round of updates, so the CFO's new rules and fixes aren't live yet. SSH into your Local machine (192.168.1.73) and restart it. Command: pkill -f cosmo.py && nohup python3 ~/Cosmo/cosmo.py >> ~/Cosmo/cosmo.log 2>&1 &"
-    },
-    {
       "id": "t4",
       "type": "task",
       "title": "Connect Cosmo to the CFO agent",
       "priority": 2,
-      "blockedBy": [
-        "t3"
-      ],
+      "blockedBy": [],
       "note": "Once Cosmo is back up, this lets you ask Cosmo from Telegram to kick off your financial report \u2014 instead of triggering it by hand each time. It's a small one-time setup. Can't be done until Cosmo is confirmed running."
     },
     {
@@ -373,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-05-31",
-    "topic": "Agent Buildout Ecosystem",
-    "summary": "Agent Buildout Ecosystem",
+    "topic": "Cosmo Verification",
+    "summary": "Cosmo Verification",
     "next": [],
-    "file": "2026-05-31_agent-buildout-ecosystem.md"
+    "file": "2026-05-31_cosmo-verification.md"
   }
 }
