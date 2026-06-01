@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T10:19:03",
+  "lastUpdated": "2026-06-01T13:31:07",
   "bots": [
     {
       "id": "cosmo",
@@ -363,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-06-01",
-    "topic": "Machine Naming Cleanup",
-    "summary": "Machine Naming Cleanup",
+    "topic": "Business Plan Review",
+    "summary": "Business Plan Review",
     "next": [],
-    "file": "2026-06-01_machine-naming-cleanup.md"
+    "file": "2026-06-01_business-plan-review.md"
   }
 }
