@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T15:58:03",
+  "lastUpdated": "2026-06-01T10:19:03",
   "bots": [
     {
       "id": "cosmo",
@@ -362,10 +362,10 @@
     }
   ],
   "lastSession": {
-    "date": "2026-05-31",
-    "topic": "Cosmo Debug Fix",
-    "summary": "Cosmo Debug Fix",
+    "date": "2026-06-01",
+    "topic": "Machine Naming Cleanup",
+    "summary": "Machine Naming Cleanup",
     "next": [],
-    "file": "2026-05-31_cosmo-debug-fix.md"
+    "file": "2026-06-01_machine-naming-cleanup.md"
   }
 }
