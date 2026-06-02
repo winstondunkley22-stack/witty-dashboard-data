@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T19:27:57",
+  "lastUpdated": "2026-06-01T19:58:00",
   "bots": [
     {
       "id": "cosmo",
@@ -363,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-06-01",
-    "topic": "Os Reframe Brain Restructure",
-    "summary": "Os Reframe Brain Restructure",
+    "topic": "Claude Md Brain Restructure",
+    "summary": "Claude Md Brain Restructure",
     "next": [],
-    "file": "2026-06-01_os-reframe-brain-restructure.md"
+    "file": "2026-06-01_claude-md-brain-restructure.md"
   }
 }
