@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T11:25:59",
+  "lastUpdated": "2026-06-03T11:56:01",
   "bots": [
     {
       "id": "cosmo",
@@ -363,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-06-03",
-    "topic": "Stop Hook Optimization",
-    "summary": "Stop Hook Optimization",
+    "topic": "Stop Hook Audit",
+    "summary": "Stop Hook Audit",
     "next": [],
-    "file": "2026-06-03_stop-hook-optimization.md"
+    "file": "2026-06-03_stop-hook-audit.md"
   }
 }
