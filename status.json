@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T04:08:31",
+  "lastUpdated": "2026-06-03T07:03:26",
   "bots": [
     {
       "id": "cosmo",
@@ -362,10 +362,10 @@
     }
   ],
   "lastSession": {
-    "date": "2026-06-02",
-    "topic": "Archivist Ecosystem Sync",
-    "summary": "Archivist Ecosystem Sync",
+    "date": "2026-06-03",
+    "topic": "Archivist Cto Sync",
+    "summary": "Archivist Cto Sync",
     "next": [],
-    "file": "2026-06-02_archivist-ecosystem-sync.md"
+    "file": "2026-06-03_archivist-cto-sync.md"
   }
 }
