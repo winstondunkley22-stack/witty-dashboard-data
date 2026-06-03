@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T19:12:09",
+  "lastUpdated": "2026-06-02T19:42:11",
   "bots": [
     {
       "id": "cosmo",
@@ -363,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-06-02",
-    "topic": "Dashboard Redis Migration",
-    "summary": "Dashboard Redis Migration",
+    "topic": "Cfo Distribution Report",
+    "summary": "Cfo Distribution Report",
     "next": [],
-    "file": "2026-06-02_dashboard-redis-migration.md"
+    "file": "2026-06-02_cfo-distribution-report.md"
   }
 }
