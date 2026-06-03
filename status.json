@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T09:13:00",
+  "lastUpdated": "2026-06-03T09:43:02",
   "bots": [
     {
       "id": "cosmo",
@@ -363,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-06-03",
-    "topic": "Archivist Cto Sync",
-    "summary": "Archivist Cto Sync",
+    "topic": "Archivist Routing Fix",
+    "summary": "Archivist Routing Fix",
     "next": [],
-    "file": "2026-06-03_archivist-cto-sync.md"
+    "file": "2026-06-03_archivist-routing-fix.md"
   }
 }
