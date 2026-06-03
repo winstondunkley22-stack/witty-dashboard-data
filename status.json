@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T19:42:11",
+  "lastUpdated": "2026-06-02T20:12:13",
   "bots": [
     {
       "id": "cosmo",
@@ -363,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-06-02",
-    "topic": "Cfo Distribution Report",
-    "summary": "Cfo Distribution Report",
+    "topic": "Cfo Runner Fix",
+    "summary": "Cfo Runner Fix",
     "next": [],
-    "file": "2026-06-02_cfo-distribution-report.md"
+    "file": "2026-06-02_cfo-runner-fix.md"
   }
 }
