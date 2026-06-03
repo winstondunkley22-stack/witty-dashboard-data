@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T23:26:18",
+  "lastUpdated": "2026-06-02T23:56:20",
   "bots": [
     {
       "id": "cosmo",
@@ -363,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-06-02",
-    "topic": "Agent Behavioral Updates",
-    "summary": "Agent Behavioral Updates",
+    "topic": "Archivist Ecosystem Sync",
+    "summary": "Archivist Ecosystem Sync",
     "next": [],
-    "file": "2026-06-02_agent-behavioral-updates.md"
+    "file": "2026-06-02_archivist-ecosystem-sync.md"
   }
 }
