@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T20:12:13",
+  "lastUpdated": "2026-06-02T20:42:20",
   "bots": [
     {
       "id": "cosmo",
@@ -363,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-06-02",
-    "topic": "Cfo Runner Fix",
-    "summary": "Cfo Runner Fix",
+    "topic": "Cfo Runner Cto Buildout",
+    "summary": "Cfo Runner Cto Buildout",
     "next": [],
-    "file": "2026-06-02_cfo-runner-fix.md"
+    "file": "2026-06-02_cfo-runner-cto-buildout.md"
   }
 }
