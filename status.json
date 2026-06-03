@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T18:12:05",
+  "lastUpdated": "2026-06-02T18:42:07",
   "bots": [
     {
       "id": "cosmo",
@@ -363,9 +363,9 @@
   ],
   "lastSession": {
     "date": "2026-06-02",
-    "topic": "Upstash Redis Migration",
-    "summary": "Upstash Redis Migration",
+    "topic": "Dashboard Redis Migration",
+    "summary": "Dashboard Redis Migration",
     "next": [],
-    "file": "2026-06-02_upstash-redis-migration.md"
+    "file": "2026-06-02_dashboard-redis-migration.md"
   }
 }
