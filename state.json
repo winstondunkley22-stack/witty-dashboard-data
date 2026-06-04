@@ -1,6 +1,15 @@
 {
   "agentInbox": [
     {
+      "id": "dispatch_1780558298",
+      "agent": "CLAUDE",
+      "skill": "cfo",
+      "type": "result",
+      "title": "Give me a one-sentence status on where Witty Studios finances stand right now.",
+      "body": "June is 4 days in with $169 revenue (one Development Insights payment, Dunkley only) against $69.99 in expenses (Dronelink), netting $99 \u2014 well short of the $5K/mo target with no Frost income yet recorded.",
+      "ts": "2026-06-04T07:31:38.043869+00:00"
+    },
+    {
       "id": "dispatch_1779777926_0",
       "agent": "CFO",
       "type": "complete",
